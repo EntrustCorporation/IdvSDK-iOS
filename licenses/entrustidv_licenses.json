@@ -1,0 +1,41 @@
+{
+  "dependencies": [
+    {
+      "name": "Factory",
+      "project_url": "https://github.com/hmlongco/Factory",
+      "license_name": "MIT",
+      "copyright_notice": "Copyright (c) 2022-2025 Michael Long",
+      "changed_source_code": true,
+      "source_code_changes": null
+    },
+    {
+      "name": "Open SSL",
+      "project_url": "https://www.openssl.org",
+      "license_name": "Apache License v2",
+      "copyright_notice": "Copyright (c) 1998-2025 The OpenSSL Project Authors",
+      "changed_source_code": false,
+      "source_code_changes": null
+    },
+    {
+      "name": "NFCPassportReader",
+      "project_url": "https://github.com/AndyQ/NFCPassportReader",
+      "license_name": "MIT",
+      "copyright_notice": "Copyright (c) 2019 Andy Qua",
+      "changed_source_code": true,
+      "source_code_changes": null
+    },
+    {
+      "name": "MRZParser",
+      "project_url": "https://github.com/appintheair/MRZParser",
+      "license_name": "MIT",
+      "copyright_notice": "Copyright (c) 2021 App in the Air",
+      "changed_source_code": false,
+      "source_code_changes": null
+    }
+  ],
+  "licenses": [
+    { "name": "MIT", "file": "onfido_licenses_mit.txt" },
+    { "name": "3-clause BSD License", "file": "onfido_licenses_3_clause_bsd.txt" },
+    { "name": "Apache License v2", "file": "onfido_licenses_apache_2.txt" }
+  ]
+}
