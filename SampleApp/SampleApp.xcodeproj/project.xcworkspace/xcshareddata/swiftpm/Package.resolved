@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/EntrustCorporation/IdvSDK-iOS",
       "state" : {
-        "branch" : "main",
-        "revision" : "d7d1c0261130de01b1c98bfe4fcc529807948cee"
+        "revision" : "f12d63163bc7636a6d8db45763a80d8f38262fa4",
+        "version" : "100.0.0"
       }
     },
     {
@@ -24,8 +24,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/bckr/MRZParser",
       "state" : {
-        "branch" : "develop",
-        "revision" : "bdaf544c9b8f23f44807833777b0853a823394fb"
+        "revision" : "bdaf544c9b8f23f44807833777b0853a823394fb",
+        "version" : "1.0.0"
       }
     }
   ],

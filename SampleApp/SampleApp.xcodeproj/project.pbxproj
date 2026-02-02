@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05B698A22F2D159E00446B47 /* EntrustIdv in Frameworks */ = {isa = PBXBuildFile; productRef = 05B698A12F2D159E00446B47 /* EntrustIdv */; };
+		9BC932362F30FB3C00440959 /* EntrustIdv in Frameworks */ = {isa = PBXBuildFile; productRef = 9BC932352F30FB3C00440959 /* EntrustIdv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05B698A22F2D159E00446B47 /* EntrustIdv in Frameworks */,
+				9BC932362F30FB3C00440959 /* EntrustIdv in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +83,7 @@
 			);
 			name = SampleApp;
 			packageProductDependencies = (
-				05B698A12F2D159E00446B47 /* EntrustIdv */,
+				9BC932352F30FB3C00440959 /* EntrustIdv */,
 			);
 			productName = SampleApp;
 			productReference = 05DD59B42F2CFBE90063DDE3 /* SampleApp.app */;
@@ -114,7 +114,7 @@
 			mainGroup = 05DD59AB2F2CFBE90063DDE3;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				05B698A02F2D159E00446B47 /* XCRemoteSwiftPackageReference "IdvSDK-iOS" */,
+				9BC932342F30FB3C00440959 /* XCRemoteSwiftPackageReference "IdvSDK-iOS" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 05DD59B52F2CFBE90063DDE3 /* Products */;
@@ -362,20 +362,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		05B698A02F2D159E00446B47 /* XCRemoteSwiftPackageReference "IdvSDK-iOS" */ = {
+		9BC932342F30FB3C00440959 /* XCRemoteSwiftPackageReference "IdvSDK-iOS" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/EntrustCorporation/IdvSDK-iOS";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = exactVersion;
+				version = 100.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		05B698A12F2D159E00446B47 /* EntrustIdv */ = {
+		9BC932352F30FB3C00440959 /* EntrustIdv */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 05B698A02F2D159E00446B47 /* XCRemoteSwiftPackageReference "IdvSDK-iOS" */;
+			package = 9BC932342F30FB3C00440959 /* XCRemoteSwiftPackageReference "IdvSDK-iOS" */;
 			productName = EntrustIdv;
 		};
 /* End XCSwiftPackageProductDependency section */
