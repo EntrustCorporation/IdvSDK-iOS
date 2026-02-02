@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+Info.plist
+SampleApp
+
+Created by nils.becker on 02.02.26.
+Copyright (c) 2026 Entrust. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+        <key>NSPhotoLibraryUsageDescription</key>
+        <string>Required to save photos captured to disk</string>
+        <key>NSCameraUsageDescription</key>
+        <string>Required for the verification process</string>
+        <key>NSMicrophoneUsageDescription</key>
+        <string>Required for the video liveness capture recite challenge</string>
+    </dict>
+</plist>

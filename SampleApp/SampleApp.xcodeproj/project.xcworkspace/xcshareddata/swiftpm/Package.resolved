@@ -1,0 +1,33 @@
+{
+  "originHash" : "2a6b26159bee4a7df208fe8cd74f4cff44de0e29619f9b4e72b72816323d97df",
+  "pins" : [
+    {
+      "identity" : "factory",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hmlongco/Factory",
+      "state" : {
+        "revision" : "ccc898f21992ebc130bc04cc197460a5ae230bcf",
+        "version" : "2.5.3"
+      }
+    },
+    {
+      "identity" : "idvsdk-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/EntrustCorporation/IdvSDK-iOS",
+      "state" : {
+        "branch" : "main",
+        "revision" : "d7d1c0261130de01b1c98bfe4fcc529807948cee"
+      }
+    },
+    {
+      "identity" : "mrzparser",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/bckr/MRZParser",
+      "state" : {
+        "branch" : "develop",
+        "revision" : "bdaf544c9b8f23f44807833777b0853a823394fb"
+      }
+    }
+  ],
+  "version" : 3
+}
