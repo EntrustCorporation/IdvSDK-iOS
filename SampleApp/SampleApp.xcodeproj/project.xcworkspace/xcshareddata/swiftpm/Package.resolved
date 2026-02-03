@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/EntrustCorporation/IdvSDK-iOS",
       "state" : {
-        "revision" : "f12d63163bc7636a6d8db45763a80d8f38262fa4",
-        "version" : "100.0.0"
+        "revision" : "454ca0ee39c0ae85230acb4bc28d9805c2873322",
+        "version" : "100.0.1"
       }
     },
     {

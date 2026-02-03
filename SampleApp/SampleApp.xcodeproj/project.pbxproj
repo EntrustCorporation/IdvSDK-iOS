@@ -367,7 +367,7 @@
 			repositoryURL = "https://github.com/EntrustCorporation/IdvSDK-iOS";
 			requirement = {
 				kind = exactVersion;
-				version = 100.0.0;
+				version = 100.0.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
