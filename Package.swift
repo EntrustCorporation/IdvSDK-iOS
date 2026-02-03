@@ -39,8 +39,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "Core",
-            url: "https://onfido-sdks.s3.eu-west-1.amazonaws.com/ios/flex/Core-v100.0.0.xcframework.zip",
-            checksum: "204a4c967e4a5fca03128e4490f9a58fe389aab54cd7a1ade5a63db3cd99b4bd"
+            url: "https://onfido-sdks.s3.eu-west-1.amazonaws.com/ios/flex/Core-v100.0.1.xcframework.zip",
+            checksum: "dc1924ca8817f4393d09894d965f3e2aacc13257752058d530283363eef3f850"
         ),
         .binaryTarget(
             name: "EntrustCaptureAPI",
