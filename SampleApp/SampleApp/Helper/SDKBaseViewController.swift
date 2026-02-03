@@ -19,22 +19,22 @@ class SDKBaseViewController: UIViewController {
     private func configureSubviews() {
         view.backgroundColor = .white
 
-        let launchOnfidoButton = UIButton(
+        let launchEntrustButton = UIButton(
             configuration: .borderedProminent(),
             primaryAction: UIAction(title: "Launch Entrust SDK 🚀", handler: { [weak self] _ in
                 self?.launchSDK()
             })
         )
 
-        launchOnfidoButton.translatesAutoresizingMaskIntoConstraints = false
-        view.addSubview(launchOnfidoButton)
+        launchEntrustButton.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(launchEntrustButton)
 
         NSLayoutConstraint.activate([
-            launchOnfidoButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            launchOnfidoButton.centerYAnchor.constraint(equalTo: view.centerYAnchor)
+            launchEntrustButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            launchEntrustButton.centerYAnchor.constraint(equalTo: view.centerYAnchor)
         ])
 
-        launchOnfidoButton.tintColor = .systemBlue
+        launchEntrustButton.tintColor = .systemBlue
     }
 
     func launchSDK() {

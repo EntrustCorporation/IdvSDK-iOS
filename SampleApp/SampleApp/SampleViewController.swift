@@ -33,7 +33,7 @@ class SampleViewController: SDKBaseViewController {
         mode: .light,
         branding: Branding(
             text: "Brand Name",
-            logo: "<logo_file_path>",
+            logo: "<url_to_logo_svg>", // URL to a publicly accessible SVG image
         ),
         lightColors: [
             .backgroundColorOverlay: "#10598A85"
