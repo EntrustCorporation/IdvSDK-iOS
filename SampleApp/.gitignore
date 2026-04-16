@@ -1,0 +1,38 @@
+# ========================
+# Xcode
+# ========================
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+DerivedData/
+
+# ========================
+# Build artefacts
+# ========================
+build/
+*.o
+*.d
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# ========================
+# Swift Package Manager
+# (resolved inside an Xcode project)
+# ========================
+# Package.resolved IS intentionally tracked for the SampleApp.
+# As a top-level app (not a library), tracking it ensures all developers
+# and CI use identical dependency versions. Do NOT add it to this gitignore.
+
+# ========================
+# OS / tooling
+# ========================
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+.idea/
+*.swp
+*.swo

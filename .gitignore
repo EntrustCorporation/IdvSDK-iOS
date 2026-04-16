@@ -1,0 +1,45 @@
+# ========================
+# Swift Package Manager
+# ========================
+.build/
+.swiftpm/xcode/package.xcworkspace/
+
+# Package.resolved is intentionally IGNORED for this library/SDK package.
+# Per Swift Evolution SE-0175, a library's Package.resolved has no effect on
+# its consumer packages — SPM ignores it entirely when resolving dependencies
+# from the outside. Tracking it only creates unnecessary merge conflicts.
+Package.resolved
+
+# ========================
+# Xcode
+# ========================
+*.xcodeproj/
+*.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+
+# ========================
+# Build artefacts
+# ========================
+DerivedData/
+build/
+*.o
+*.d
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# ========================
+# OS / tooling
+# ========================
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+.idea/
+*.swp
+*.swo
