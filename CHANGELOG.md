@@ -1,3 +1,10 @@
+## 100.3.0
+
+### Changed
+
+- Expose `buttonBorderRadius` and `selectionListItemBorderRadius` as public `Theme` dimension tokens via `BorderRadiusTokens`. This allows the customisation of the button border radius and selectable list items' border radius (used in the document selection and country selection screens)
+- Reduced AnalyticsEvent framework binary size
+
 ## 100.2.0
 
 ### Added
@@ -13,16 +20,16 @@
 
 ### Added
 
-- Added support for biometric token storage and retrieval Studio tasks
 - Added VoiceOver support for Motion
+- Added support for biometric token storage and retrieval Studio tasks
 
 ### Changed
 
-- Improved primary button styling consistency between `light` and `dark` mode
 - Added snapshot tests for Motion
 - Fixed button bottom padding for smaller devices
 - Fixed the overlay in Motion incorrectly covering the face area on iPhone SE 1st gen
 - Fixed issue with duplicate bundling of frameworks
+- Improved primary button styling consistency between `light` and `dark` mode
 
 ### Fixed
 
