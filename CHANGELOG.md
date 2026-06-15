@@ -1,3 +1,18 @@
+## 100.4.0
+
+### Added
+
+- Added the ability to detect and handle multiple faces during the Motion capture flow
+
+### Changed
+
+- Fixed Motion freezing when another app has ongoing audio that can't be interrupted
+- Add support for customisation of fonts, more specifically: local custom fonts support in both native and web modules
+
+### Fixed
+
+- Attempted to fix rare Motion crash when completing a recording
+
 ## 100.3.0
 
 ### Changed
