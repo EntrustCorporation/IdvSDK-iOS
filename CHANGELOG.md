@@ -1,13 +1,33 @@
+## 100.5.0
+
+### Changed
+
+- Added haptic feedback for capture stages in Face Authentication
+- Modularise AnalyticsEvents into per-module framework targets
+- Set explicit VoiceOver traversal order for content screens
+- Localize the Play/Pause button on media containers
+- Add animation container to VoiceOver
+- Assign VoiceOver order for status screens
+
+### Fixed
+
+- Fixed an issue where the device could be rotated to landscape while a bottom sheet (e.g. the help dialog) was open. Bottom sheets are now locked to portrait orientation.
+- Fixed an issue where the document-type subtitle was not updated when transitioning to back-side capture, causing the wrong subtitle to be shown after the first frame validation.
+- Fixed an issue where "Keep Still" auto-capture feedback was shown alongside the manual capture button when navigating back from a document scan and then selecting a manual-only document type.
+
 ## 100.4.0
 
 ### Added
 
 - Added the ability to detect and handle multiple faces during the Motion capture flow
+- On Studio flows now honor the welcome screen configuration returned by the SDK Configuration API. When the welcome screen is disabled on Studio for a workflow, it is no longer shown at the start of the flow; otherwise the existing behavior is kept.
+- Adapted the text (UI) components to support empty strings (in case overrides are empty). Main changes: list items
 
 ### Changed
 
 - Fixed Motion freezing when another app has ongoing audio that can't be interrupted
 - Add support for customisation of fonts, more specifically: local custom fonts support in both native and web modules
+- Reduced the size of translations by approximately 90%
 
 ### Fixed
 
