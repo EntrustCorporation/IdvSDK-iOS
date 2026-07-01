@@ -1,9 +1,21 @@
+## 100.6.0
+
+### Added
+
+- Added support for Dynamic Text Sizing
+
 ## 100.5.0
+
+### Added
+
+- On Studio flows now honor the welcome screen configuration returned by the SDK Configuration API. When the welcome screen is disabled on Studio for a workflow, it is no longer shown at the start of the flow; otherwise the existing behavior is kept.
+- Adapted the text (UI) components to support empty strings (in case overrides are empty). Main changes: list items
 
 ### Changed
 
 - Added haptic feedback for capture stages in Face Authentication
 - Modularise AnalyticsEvents into per-module framework targets
+- Reduced the size of translations by approximately 90%
 - Set explicit VoiceOver traversal order for content screens
 - Localize the Play/Pause button on media containers
 - Add animation container to VoiceOver
