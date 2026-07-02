@@ -1,3 +1,9 @@
+## 100.7.0
+
+### Fixed
+
+- Fixed a startup crash caused by a framework being missing from the released package
+
 ## 100.6.0
 
 ### Added
