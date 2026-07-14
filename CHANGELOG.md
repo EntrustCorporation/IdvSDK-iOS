@@ -1,7 +1,16 @@
-## 100.7.0
+## 100.8.0
+
+### Added
+
+- Added support for remote font loading for native and web modules
 
 ### Fixed
 
+- Fixed an issue with face detection not resuming after restarting recording
+- Fixed low contrast of back and exit buttons on capture screens
+- Fixed an issue where the document capture frame showed a red border on the "Center document" feedback. The border is now consistent across all alignment feedback and aligned with the Android and Web SDKs
+- Fixed truncated copy on the NFC scan sheet.
+- Fixed an issue where cancelling the native iOS NFC scan sheet left the user on the intro screen instead of navigating to the error screen.
 - Fixed a startup crash caused by a framework being missing from the released package
 
 ## 100.6.0
