@@ -1,3 +1,16 @@
+## 100.9.0
+
+### Changed
+
+- Improved NFC scan sheet progress reporting.
+
+### Fixed
+
+- Fixed an issue where, with multiple faces detection enabled, the head turn during Motion capture could stop working after another face briefly appeared in view, preventing the user from completing the capture
+- Fixed an issue where the selfie camera could stay out of focus after repeatedly starting and leaving the Motion capture screen, which could cause the capture to become blurry and fail
+- Fixed an issue where the NFC "Start scan" button could become permanently unresponsive after a failed scan attempt, requiring the user to restart the flow.
+- Fixed missing icons on the Motion intro screen
+
 ## 100.8.0
 
 ### Added
