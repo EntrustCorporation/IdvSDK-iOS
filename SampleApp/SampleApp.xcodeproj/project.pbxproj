@@ -114,7 +114,7 @@
 			mainGroup = 05DD59AB2F2CFBE90063DDE3;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				05B698A02F2D159E00446B47 /* XCRemoteSwiftPackageReference \"IdvSDK-iOS\" */,
+				05B698A02F2D159E00446B47 /* XCRemoteSwiftPackageReference "IdvSDK-iOS" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 05DD59B52F2CFBE90063DDE3 /* Products */;
@@ -367,7 +367,7 @@
 			repositoryURL = "https://github.com/EntrustCorporation/IdvSDK-iOS";
 			requirement = {
 				kind = exactVersion;
-				version = "100.9.0";
+				version = "100.10.0";
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -375,7 +375,7 @@
 /* Begin XCSwiftPackageProductDependency section */
 		05B698A12F2D159E00446B47 /* EntrustIdv */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 05B698A02F2D159E00446B47 /* XCRemoteSwiftPackageReference \"IdvSDK-iOS\" */;
+			package = 05B698A02F2D159E00446B47 /* XCRemoteSwiftPackageReference "IdvSDK-iOS" */;
 			productName = EntrustIdv;
 		};
 /* End XCSwiftPackageProductDependency section */
