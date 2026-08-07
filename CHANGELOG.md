@@ -1,3 +1,21 @@
+## 100.10.0
+
+### Added
+
+- Adds on-device image quality assessment for Motion capture, checking frame sharpness, brightness and contrast before/during recording
+- Add tracking for navigationBackEvent event when the user navigates to a previous screen
+
+### Fixed
+
+- Fixed an occasional crash during document capture when scanning the back side of a document.
+- Fixed "Start scan" button on the document's manual capture flow not responding to custom colour and border radius token overrides.
+- Fix the font weight of the list section title on the document selection screen
+- Fixed a crash that could occur during the verification flow when web module bootstrap or completion callbacks were delivered more than once, most frequently on slower devices and older iOS versions.
+- Section titles on the country selection and document selection screens are now exposed as headings to screen readers.
+- The document capture instruction title is now exposed as a heading to screen readers.
+- Increases the colour contrast of the next-step arrows and placeholder dots on the Motion capture screen so they meet the WCAG 2.1 AA 3:1 non-text contrast requirement
+- The document capture scanning frame now renders a static border instead of the continuous shimmer animation when the system Reduce Motion setting is enabled (WCAG 2.2.2)
+
 ## 100.9.0
 
 ### Changed
