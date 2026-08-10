@@ -1,3 +1,17 @@
+## 100.11.0
+
+### Changed
+
+- Error icons on error screens now announce their meaning to VoiceOver, providing screen reader users with the same visual error context as sighted users.
+
+### Fixed
+
+- Fixed the decorative illustration in the document capture "Need help?" carousel being announced by VoiceOver as an unlabelled element, so the sheet now follows a meaningful reading order.
+- Fixed the country search placeholder text (e.g. "Search for country") rendering with insufficient colour contrast against its background, which failed WCAG 2.1 AA 1.4.3 Contrast (Minimum) and could disadvantage low vision and colour blind users
+- Screen readers now announce the advisory icon's meaning (for example "Information:") before the banner text on the Motion intro screen, so the icon's visual shorthand is no longer lost to assistive technology.
+- Fixed intro screen animation being exposed as two separate VoiceOver elements
+- Added distinct accessibility descriptions for Motion randomness and classic variants
+
 ## 100.10.0
 
 ### Added
