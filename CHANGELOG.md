@@ -1,3 +1,10 @@
+## 100.12.0
+
+### Fixed
+
+- Fix VoiceOver reading hidden Back and Exit buttons on the camera permission primer screen
+- VoiceOver focus now returns to the row that was activated ("Issuing country/region", or a document type such as "Passport" or "National identity card") on the document selection screen after the country picker or the scan screen is dismissed, instead of jumping back to the screen's heading.
+
 ## 100.11.0
 
 ### Changed
