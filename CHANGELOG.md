@@ -1,3 +1,12 @@
+## 100.12.1
+
+### Fixed
+
+- Fixed a crash when retrying Motion capture
+- Fixed a bug where the document auto-capture scan would fail with a connection error.
+- Fixed an accessibility issue where VoiceOver did not announce the search field name when typing in the country selection screen.
+- Fixed VoiceOver on the Document Selection screen announcing the screen header and section headers before landing on the previously selected country row when returning from Country Selection.
+
 ## 100.12.0
 
 ### Fixed
