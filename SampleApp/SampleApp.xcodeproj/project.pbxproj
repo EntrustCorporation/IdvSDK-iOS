@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		05B698A22F2D159E00446B47 /* EntrustIdv in Frameworks */ = {isa = PBXBuildFile; productRef = 05B698A12F2D159E00446B47 /* EntrustIdv */; };
+		683B38A93046E00800F217DD /* BiometricToken in Frameworks */ = {isa = PBXBuildFile; productRef = 683B38A83046E00800F217DD /* BiometricToken */; };
+		683B38AB3046E00800F217DD /* Document in Frameworks */ = {isa = PBXBuildFile; productRef = 683B38AA3046E00800F217DD /* Document */; };
+		683B38AD3046E00800F217DD /* FaceMotion in Frameworks */ = {isa = PBXBuildFile; productRef = 683B38AC3046E00800F217DD /* FaceMotion */; };
+		683B38AF3046E00800F217DD /* FacePhoto in Frameworks */ = {isa = PBXBuildFile; productRef = 683B38AE3046E00800F217DD /* FacePhoto */; };
+		683B38B13046E00800F217DD /* NFC in Frameworks */ = {isa = PBXBuildFile; productRef = 683B38B03046E00800F217DD /* NFC */; };
+		683B38B33046E00800F217DD /* Welcome in Frameworks */ = {isa = PBXBuildFile; productRef = 683B38B23046E00800F217DD /* Welcome */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,7 +46,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				683B38B13046E00800F217DD /* NFC in Frameworks */,
 				05B698A22F2D159E00446B47 /* EntrustIdv in Frameworks */,
+				683B38AB3046E00800F217DD /* Document in Frameworks */,
+				683B38B33046E00800F217DD /* Welcome in Frameworks */,
+				683B38A93046E00800F217DD /* BiometricToken in Frameworks */,
+				683B38AF3046E00800F217DD /* FacePhoto in Frameworks */,
+				683B38AD3046E00800F217DD /* FaceMotion in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				05DD59B62F2CFBE90063DDE3 /* SampleApp */,
+				683B38A73046E00800F217DD /* Frameworks */,
 				05DD59B52F2CFBE90063DDE3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,6 +74,13 @@
 				05DD59B42F2CFBE90063DDE3 /* SampleApp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		683B38A73046E00800F217DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +104,12 @@
 			name = SampleApp;
 			packageProductDependencies = (
 				05B698A12F2D159E00446B47 /* EntrustIdv */,
+				683B38A83046E00800F217DD /* BiometricToken */,
+				683B38AA3046E00800F217DD /* Document */,
+				683B38AC3046E00800F217DD /* FaceMotion */,
+				683B38AE3046E00800F217DD /* FacePhoto */,
+				683B38B03046E00800F217DD /* NFC */,
+				683B38B23046E00800F217DD /* Welcome */,
 			);
 			productName = SampleApp;
 			productReference = 05DD59B42F2CFBE90063DDE3 /* SampleApp.app */;
@@ -367,7 +393,7 @@
 			repositoryURL = "https://github.com/EntrustCorporation/IdvSDK-iOS";
 			requirement = {
 				kind = exactVersion;
-				version = "100.12.1";
+				version = 100.12.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -377,6 +403,36 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 05B698A02F2D159E00446B47 /* XCRemoteSwiftPackageReference "IdvSDK-iOS" */;
 			productName = EntrustIdv;
+		};
+		683B38A83046E00800F217DD /* BiometricToken */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05B698A02F2D159E00446B47 /* XCRemoteSwiftPackageReference "IdvSDK-iOS" */;
+			productName = BiometricToken;
+		};
+		683B38AA3046E00800F217DD /* Document */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05B698A02F2D159E00446B47 /* XCRemoteSwiftPackageReference "IdvSDK-iOS" */;
+			productName = Document;
+		};
+		683B38AC3046E00800F217DD /* FaceMotion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05B698A02F2D159E00446B47 /* XCRemoteSwiftPackageReference "IdvSDK-iOS" */;
+			productName = FaceMotion;
+		};
+		683B38AE3046E00800F217DD /* FacePhoto */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05B698A02F2D159E00446B47 /* XCRemoteSwiftPackageReference "IdvSDK-iOS" */;
+			productName = FacePhoto;
+		};
+		683B38B03046E00800F217DD /* NFC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05B698A02F2D159E00446B47 /* XCRemoteSwiftPackageReference "IdvSDK-iOS" */;
+			productName = NFC;
+		};
+		683B38B23046E00800F217DD /* Welcome */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05B698A02F2D159E00446B47 /* XCRemoteSwiftPackageReference "IdvSDK-iOS" */;
+			productName = Welcome;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
