@@ -1,3 +1,11 @@
+## 100.13.0
+
+### Changed
+
+- Reduced the Core framework by 52 KB by linking the MRZ parser against the Document module, which is the only module that uses it. Integrations that do not include Document no longer carry it.
+- Reduced the Document module size by 41.6 MB by rasterising country flags at the size they are displayed
+- Reduced the size of every released framework by stripping local symbols from the shipped binaries. A core-only integration is now around 1 MB smaller to install and 0.13 MB smaller to download, and each capture module shrinks by a further 8-19%.
+
 ## 100.12.1
 
 ### Fixed
