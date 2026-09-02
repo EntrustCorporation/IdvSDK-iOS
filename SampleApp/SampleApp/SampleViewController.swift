@@ -45,7 +45,17 @@ class SampleViewController: SDKBaseViewController {
 
     override func launchSDK() {
         // Setting up callbacks
-        let callbacks = Callbacks(onComplete: onComplete, onError: onError, onUserExit: onUserExit)
+        let callbacks = Callbacks(
+            onComplete: { [weak self] results in
+                Task { @MainActor in self?.onComplete(results: results) }
+            },
+            onError: { [weak self] error in
+                Task { @MainActor in self?.onError(error: error) }
+            },
+            onUserExit: { [weak self] reason in
+                Task { @MainActor in self?.onUserExit(reason: reason) }
+            }
+        )
 
         // Configuring the SDK for a studio flow
         let configuration = Configuration(
