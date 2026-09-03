@@ -1,14 +1,14 @@
 # SDK Size — iOS (arm64)
 
-_SDK version: 100.12.1_
+_SDK version: 100.13.0_
 
 | Package                   | Base                           | Download Size Δ     | Install Size Δ      |
 |---------------------------|--------------------------------|----------------------|----------------------|
-| EntrustIdv                | Sample Native App (0.03 MB)    | +1.87 MB             | +5.80 MB             |
-| BiometricToken            | EntrustIdv (1.90 MB)           | +30.1 KB             | +133.4 KB            |
-| DeviceSecurity            | EntrustIdv (1.90 MB)           | +59.5 KB             | +176.7 KB            |
-| Document                  | EntrustIdv (1.90 MB)           | +25.08 MB            | +26.76 MB            |
-| FaceMotion                | EntrustIdv (1.90 MB)           | +365.8 KB            | +1.18 MB             |
-| FacePhoto                 | EntrustIdv (1.90 MB)           | +180.5 KB            | +655.2 KB            |
-| NFC                       | EntrustIdv (1.90 MB)           | +1.11 MB             | +2.78 MB             |
-| Welcome                   | EntrustIdv (1.90 MB)           | +65.3 KB             | +183.4 KB            |
+| EntrustIdv                | Sample Native App (0.03 MB)    | +1.67 MB             | +4.66 MB             |
+| BiometricToken            | EntrustIdv (1.70 MB)           | +35.6 KB             | +125.0 KB            |
+| DeviceSecurity            | EntrustIdv (1.70 MB)           | +55.6 KB             | +156.5 KB            |
+| Document                  | EntrustIdv (1.70 MB)           | +1.24 MB             | +2.41 MB             |
+| FaceMotion                | EntrustIdv (1.70 MB)           | +332.2 KB            | +1004.4 KB           |
+| FacePhoto                 | EntrustIdv (1.70 MB)           | +172.7 KB            | +567.7 KB            |
+| NFC                       | EntrustIdv (1.70 MB)           | +1.06 MB             | +2.56 MB             |
+| Welcome                   | EntrustIdv (1.70 MB)           | +61.9 KB             | +169.9 KB            |
