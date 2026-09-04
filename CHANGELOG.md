@@ -1,3 +1,17 @@
+## 100.13.1
+
+### Changed
+
+- Reduced the size of the CaptureContract framework by around 30% by no longer shipping capture module contracts that only exist on Web.
+
+### Fixed
+
+- Fixed a crash when exiting the flow while a capture was being uploaded
+- Fixed a crash that could occur when the camera was started or stopped while it was being reconfigured
+- Fixed a crash during capture on some iOS 15 devices
+- Fixed an intermittent crash that could occur while reading an NFC document.
+- Fixed a crash that could occur while upcoming capture steps were being prepared in the background
+
 ## 100.13.0
 
 ### Changed
