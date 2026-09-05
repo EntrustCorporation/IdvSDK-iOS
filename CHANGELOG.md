@@ -1,3 +1,11 @@
+## 100.13.2
+
+### Fixed
+
+- Fixed the error icon on the document capture error screen not having a text alternative, so screen reader users now hear "Error" announced before the error title
+- Fixed the hide_country_flags setting being ignored on the country selection screen
+- Fixed document capture settings resetting to their defaults when the configuration contains an unrecognised value
+
 ## 100.13.1
 
 ### Changed
