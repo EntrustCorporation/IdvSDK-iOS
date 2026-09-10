@@ -1,3 +1,16 @@
+## 100.13.3
+
+### Fixed
+
+- Fixed the Motion capture progress indicator rendering incorrectly on iOS 15 and iOS 16
+- Improved Motion Randomness capture by allowing brief face misalignment without restarting the sequence
+- Fixed document capture becoming stuck with no way to continue when the exit confirmation was dismissed after a document had been captured
+- Document upload failures are now reported to the SDK logs, so a failed upload can be diagnosed from a log capture
+- Fixed a crash while recording video when the system could not keep pace with the capture frame rate
+- Fixed a crash when a video recording was finalised more than once
+- Fixed the SDK staying on screen indefinitely when the exit confirmation was shown while a capture was completing, leaving the user unable to leave the flow
+- Fixed the Motion capture hanging after the app was backgrounded mid-challenge, which left the recording stuck on "Recording complete" and never uploaded it
+
 ## 100.13.2
 
 ### Fixed
