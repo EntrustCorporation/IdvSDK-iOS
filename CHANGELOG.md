@@ -1,3 +1,14 @@
+## 100.14.0
+
+### Changed
+
+- Network retries can now be disabled, and a new `MaxRetryAttemptsReachedError` error reports every error encountered once retries are exhausted instead of only the last one.
+- A configuration load that fails every retry now reports the underlying reason rather than a bare "Failed to load configuration".
+
+### Fixed
+
+- Fixed locales with a script subtag (for example zh_Hans, zh_Hant and sr_Latn) failing to load translations and terminating the flow with a generic error
+
 ## 100.13.3
 
 ### Fixed
