@@ -1,3 +1,9 @@
+## 100.14.1
+
+### Fixed
+
+- The passport capture screen now shows the "Photo page" title instead of "Front side".
+
 ## 100.14.0
 
 ### Changed
