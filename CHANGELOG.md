@@ -1,14 +1,20 @@
-## 100.14.2
+## 100.15.0
+
+### Added
+
+- Add EntrustIdvTrial native module to Package.swift file
+
+### Changed
+
+- Capture videos are now stored in a protected location on device and removed automatically once they are no longer needed
 
 ### Fixed
 
-- Fixed Motion Randomness uploading incorrect or empty head turn metadata, which could cause checks to be incorrectly rejected
-
-## 100.14.1
-
-### Fixed
-
+- Fixed a white bar appearing above the camera preview on the Motion and Selfie capture screens when the intro screen is disabled
+- NFC scanning now correctly handles all document types identified as NFC-capable.
+- Fixed an issue where document capture could show a connection error when the document video failed to record.
 - The passport capture screen now shows the "Photo page" title instead of "Front side".
+- Hosted capture modules now run in a non-persistent WebKit data store, and SDK network requests no longer write to the on-disk URL cache, so no session data is left in the app's container.
 
 ## 100.14.0
 
