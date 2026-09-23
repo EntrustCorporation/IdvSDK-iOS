@@ -1,3 +1,9 @@
+## 100.14.2
+
+### Fixed
+
+- Fixed Motion Randomness uploading incorrect or empty head turn metadata, which could cause checks to be incorrectly rejected
+
 ## 100.14.1
 
 ### Fixed
