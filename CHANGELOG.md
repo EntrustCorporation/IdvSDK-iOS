@@ -16,6 +16,18 @@
 - The passport capture screen now shows the "Photo page" title instead of "Front side".
 - Hosted capture modules now run in a non-persistent WebKit data store, and SDK network requests no longer write to the on-disk URL cache, so no session data is left in the app's container.
 
+## 100.14.2
+
+### Fixed
+
+- Fixed Motion Randomness uploading incorrect or empty head turn metadata, which could cause checks to be incorrectly rejected
+
+## 100.14.1
+
+### Fixed
+
+- The passport capture screen now shows the "Photo page" title instead of "Front side".
+
 ## 100.14.0
 
 ### Changed
