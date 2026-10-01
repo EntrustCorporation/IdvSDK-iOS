@@ -1,3 +1,14 @@
+## 100.16.0
+
+### Added
+
+- Added a native Retry module, replacing the web-hosted retry screen when it is linked
+- SDK copy can now include a `<link href="https://...">text</link>` tag, rendered as a tappable link that opens in the system browser. Unsupported tags or non-https URLs render as plain text.
+
+### Fixed
+
+- Fixed country names in the country and document selection screens being inconsistent with Android and Web.
+
 ## 100.15.0
 
 ### Added
@@ -13,7 +24,6 @@
 - Fixed a white bar appearing above the camera preview on the Motion and Selfie capture screens when the intro screen is disabled
 - NFC scanning now correctly handles all document types identified as NFC-capable.
 - Fixed an issue where document capture could show a connection error when the document video failed to record.
-- The passport capture screen now shows the "Photo page" title instead of "Front side".
 - Hosted capture modules now run in a non-persistent WebKit data store, and SDK network requests no longer write to the on-disk URL cache, so no session data is left in the app's container.
 
 ## 100.14.2
