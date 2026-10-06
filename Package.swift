@@ -152,103 +152,103 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AnalyticsEventsCore",
-            url: "https://onfido-sdks.s3.eu-west-1.amazonaws.com/ios/flex/AnalyticsEventsCore-100.16.0.xcframework.zip",
-            checksum: "c8bf045d038ec97489623c11784b0e94cdcdadcd3cc326268efa99f2063a56bf"
+            url: "https://onfido-sdks.s3.eu-west-1.amazonaws.com/ios/flex/AnalyticsEventsCore-100.17.0.xcframework.zip",
+            checksum: "1f8b7e8249dcabe3d0976fd0b57f169946d401daff1bff5799cb138b9208a2f0"
         ),
         .binaryTarget(
             name: "AnalyticsEventsFace",
-            url: "https://onfido-sdks.s3.eu-west-1.amazonaws.com/ios/flex/AnalyticsEventsFace-100.16.0.xcframework.zip",
-            checksum: "c09a6e1ef451fe29109754cddda1ded57615d814dc6f2695d9f42afc63f78a5d"
+            url: "https://onfido-sdks.s3.eu-west-1.amazonaws.com/ios/flex/AnalyticsEventsFace-100.17.0.xcframework.zip",
+            checksum: "1027770c86b9023aac3da530ea7669e25847639853eb09ddb00e06b3d39fe97c"
         ),
         .binaryTarget(
             name: "AnalyticsEventsDocument",
-            url: "https://onfido-sdks.s3.eu-west-1.amazonaws.com/ios/flex/AnalyticsEventsDocument-100.16.0.xcframework.zip",
-            checksum: "ff25e8d923832c55237fff7ce321bf00341160f459936d9560de2588e092955b"
+            url: "https://onfido-sdks.s3.eu-west-1.amazonaws.com/ios/flex/AnalyticsEventsDocument-100.17.0.xcframework.zip",
+            checksum: "c995e7fd4141237548ab3f8ac02250bb1b55ed9a01e6bfbd4a9598053b4c6f55"
         ),
         .binaryTarget(
             name: "AnalyticsEventsNFC",
-            url: "https://onfido-sdks.s3.eu-west-1.amazonaws.com/ios/flex/AnalyticsEventsNFC-100.16.0.xcframework.zip",
-            checksum: "278732c8f5d8579f9b99009b9a0b2c84062d18dd6dc34f51be466dff09b41d43"
+            url: "https://onfido-sdks.s3.eu-west-1.amazonaws.com/ios/flex/AnalyticsEventsNFC-100.17.0.xcframework.zip",
+            checksum: "3d2406f6a02e8a9d585847e803b59f1c7d12e2c58be927a76842e789f24bb2c3"
         ),
         .binaryTarget(
             name: "CaptureContract",
-            url: "https://onfido-sdks.s3.eu-west-1.amazonaws.com/ios/flex/CaptureContract-100.16.0.xcframework.zip",
-            checksum: "e8a831f6a4a3de0080ed47f9925bee9a8b7c408e818b5c033fa174d3d4456a92"
+            url: "https://onfido-sdks.s3.eu-west-1.amazonaws.com/ios/flex/CaptureContract-100.17.0.xcframework.zip",
+            checksum: "4caa94a2feef96873904ae0fd3a2450ff7662ba41378f86d40e2f952c27c04fb"
         ),
         .binaryTarget(
             name: "Core",
-            url: "https://onfido-sdks.s3.eu-west-1.amazonaws.com/ios/flex/Core-100.16.0.xcframework.zip",
-            checksum: "183770ff809073b30a32fda152da227ae9773b6a8f5b7cc79e03c746836eee5b"
+            url: "https://onfido-sdks.s3.eu-west-1.amazonaws.com/ios/flex/Core-100.17.0.xcframework.zip",
+            checksum: "3f4b9dffa60a12aee0e3743e2f336b5adacfd5b03a59e017cadc3c64d6f50cf0"
         ),
         .binaryTarget(
             name: "DeviceSecurity",
-            url: "https://onfido-sdks.s3.eu-west-1.amazonaws.com/ios/flex/DeviceSecurity-100.16.0.xcframework.zip",
-            checksum: "5eb7771f036f412e56b4346449a0b2762890cbcc8637ff5b239e55529170c19e"
+            url: "https://onfido-sdks.s3.eu-west-1.amazonaws.com/ios/flex/DeviceSecurity-100.17.0.xcframework.zip",
+            checksum: "7e453b195c4148f6c48041b74d06a1cca5f62c9b8c373387745bdea979185de8"
         ),
         .binaryTarget(
             name: "EntrustCaptureAPI",
-            url: "https://onfido-sdks.s3.eu-west-1.amazonaws.com/ios/flex/EntrustCaptureAPI-100.16.0.xcframework.zip",
-            checksum: "e7916d158cb5f67101c4154bb64f63c97a9ae27712ed20c8276a305616ba5fc0"
+            url: "https://onfido-sdks.s3.eu-west-1.amazonaws.com/ios/flex/EntrustCaptureAPI-100.17.0.xcframework.zip",
+            checksum: "d309bd822cecaa68208cf87e78362350703a88eda88bb3b720370958104884ed"
         ),
         .binaryTarget(
             name: "EntrustIdv",
-            url: "https://onfido-sdks.s3.eu-west-1.amazonaws.com/ios/flex/EntrustIdv-100.16.0.xcframework.zip",
-            checksum: "b890a7dca5864091084d94a7a90213747113aad0e9f998f209a12b8b304e59e0"
+            url: "https://onfido-sdks.s3.eu-west-1.amazonaws.com/ios/flex/EntrustIdv-100.17.0.xcframework.zip",
+            checksum: "19329fce58b2d55ffb990f22fb31545e498118c206bf93fc143bd47e0190e8f8"
         ),
         .binaryTarget(
             name: "EntrustIdvTrial",
-            url: "https://onfido-sdks.s3.eu-west-1.amazonaws.com/ios/flex/EntrustIdvTrial-100.16.0.xcframework.zip",
-            checksum: "1fa333332c08e620d26b092c4f0da1193ec1c8404ee2e16d778acae0b4fccbf1"
+            url: "https://onfido-sdks.s3.eu-west-1.amazonaws.com/ios/flex/EntrustIdvTrial-100.17.0.xcframework.zip",
+            checksum: "8d1dadf6751680536d22898414379607e041d9970fcdfcdd2a4725d666c57136"
         ),
         .binaryTarget(
             name: "TranslationKeys",
-            url: "https://onfido-sdks.s3.eu-west-1.amazonaws.com/ios/flex/TranslationKeys-100.16.0.xcframework.zip",
-            checksum: "b6c60f104285a00a831c5b15870a292b7223d724bffa8666c1482d34284313c0"
+            url: "https://onfido-sdks.s3.eu-west-1.amazonaws.com/ios/flex/TranslationKeys-100.17.0.xcframework.zip",
+            checksum: "e1122752b1424731b672054cca9b54a5ce0f52d23d50ff0adf0210a3ecddc9c9"
         ),
         .binaryTarget(
             name: "UITokens",
-            url: "https://onfido-sdks.s3.eu-west-1.amazonaws.com/ios/flex/UITokens-100.16.0.xcframework.zip",
-            checksum: "05fd83020e4d8a84aaf89d1f3c58e25e2b78aa49957e9bb7914159aa0cde5acc"
+            url: "https://onfido-sdks.s3.eu-west-1.amazonaws.com/ios/flex/UITokens-100.17.0.xcframework.zip",
+            checksum: "559f39209921811ec09cfb001e1afcdf2cc33bea2a493afef96392067fc72946"
         ),
         .binaryTarget(
             name: "Welcome",
-            url: "https://onfido-sdks.s3.eu-west-1.amazonaws.com/ios/flex/Welcome-100.16.0.xcframework.zip",
-            checksum: "77456be4a0ddf1c468f2fe73710f0c904f7677706264fdc817f96e9237a66a96"
+            url: "https://onfido-sdks.s3.eu-west-1.amazonaws.com/ios/flex/Welcome-100.17.0.xcframework.zip",
+            checksum: "381e8c723ef0002b5fb3c7e5fe25f988b95f95e5de1bb0d191edc9a7edf5d1c6"
         ),
         .binaryTarget(
             name: "FacePhoto",
-            url: "https://onfido-sdks.s3.eu-west-1.amazonaws.com/ios/flex/FacePhoto-100.16.0.xcframework.zip",
-            checksum: "a78cced91c7da04b801ca589b0ed2631e4aa77d86b056b93e5856da5c7ff64c8"
+            url: "https://onfido-sdks.s3.eu-west-1.amazonaws.com/ios/flex/FacePhoto-100.17.0.xcframework.zip",
+            checksum: "c25818365e60c8933f255a6adb4b43efe95f7d0b3b28e6882c665285a394fbf5"
         ),
         .binaryTarget(
             name: "FaceMotion",
-            url: "https://onfido-sdks.s3.eu-west-1.amazonaws.com/ios/flex/FaceMotion-100.16.0.xcframework.zip",
-            checksum: "b18708f06bf966375af6314e8e08d9f03274133e3a1b524e75102e6bd8419c93"
+            url: "https://onfido-sdks.s3.eu-west-1.amazonaws.com/ios/flex/FaceMotion-100.17.0.xcframework.zip",
+            checksum: "8f03569292a23cb0b004e02158ed29af84c971254cb668449df58f7fe1314c16"
         ),
         .binaryTarget(
             name: "Document",
-            url: "https://onfido-sdks.s3.eu-west-1.amazonaws.com/ios/flex/Document-100.16.0.xcframework.zip",
-            checksum: "47f6d781ce13a682d7f5cdfec6808cb729d300492bdd2764845a4f8a2afdc099"
+            url: "https://onfido-sdks.s3.eu-west-1.amazonaws.com/ios/flex/Document-100.17.0.xcframework.zip",
+            checksum: "40dabde8d65b3864104ba7f3fbe6c148f4731141db764e3876077834b438802e"
         ),
         .binaryTarget(
             name: "NFC",
-            url: "https://onfido-sdks.s3.eu-west-1.amazonaws.com/ios/flex/NFC-100.16.0.xcframework.zip",
-            checksum: "75412f68ee384bc83f51945f7f37d9ccb7c435bc08d0674b041d2cc0394e32c6"
+            url: "https://onfido-sdks.s3.eu-west-1.amazonaws.com/ios/flex/NFC-100.17.0.xcframework.zip",
+            checksum: "c1527ed9c50cb50a20cc4c2ac856de465d27adcb8c950ed076a7d37a6943ab90"
         ),
         .binaryTarget(
             name: "BiometricToken",
-            url: "https://onfido-sdks.s3.eu-west-1.amazonaws.com/ios/flex/BiometricToken-100.16.0.xcframework.zip",
-            checksum: "22e4e73ba0123be4ee5c18465741eb35a4bc0945afbf296593a15b75c3e6e6ff"
+            url: "https://onfido-sdks.s3.eu-west-1.amazonaws.com/ios/flex/BiometricToken-100.17.0.xcframework.zip",
+            checksum: "6517d2e79b29e0360211840b94a0832a5d4ba275a166496adc199e2c986d0ad0"
         ),
         .binaryTarget(
             name: "Consent",
-            url: "https://onfido-sdks.s3.eu-west-1.amazonaws.com/ios/flex/Consent-100.16.0.xcframework.zip",
-            checksum: "f2c2354b9b4e5870533af81bca12db7e1807411ed6e3e96cd62e3a9cbc467231"
+            url: "https://onfido-sdks.s3.eu-west-1.amazonaws.com/ios/flex/Consent-100.17.0.xcframework.zip",
+            checksum: "116b18883da05da1a81156b8160dda7259ae71501618caa92c9f1b993c28d9ae"
         ),
         .binaryTarget(
             name: "Retry",
-            url: "https://onfido-sdks.s3.eu-west-1.amazonaws.com/ios/flex/Retry-100.16.0.xcframework.zip",
-            checksum: "f2132c56c8a61ca5d9b7636e4825d887f3ec7706213f6b4a71d6a84f54864f3d"
+            url: "https://onfido-sdks.s3.eu-west-1.amazonaws.com/ios/flex/Retry-100.17.0.xcframework.zip",
+            checksum: "6f8128efe0ff2f72594ac77bf708d6ce1d7b2a5a2f7c12f03880c3fc59ab6b45"
         ),
         .target(
             name: "EntrustDependencies",

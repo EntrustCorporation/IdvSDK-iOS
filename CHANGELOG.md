@@ -1,3 +1,18 @@
+## 100.17.0
+
+### Added
+
+- Error messages for unsuccessful network requests now include the HTTP status code, for example "NetworkError. Unsuccessful request (HTTP 413)"
+
+### Changed
+
+- Upgraded the OpenSSL library embedded for NFC from the end-of-life 1.1.1 series to 3.5.7 LTS
+
+### Fixed
+
+- Fixed Motion capture occasionally failing to upload after the face was realigned
+- Fixed NFC chip detection for French national identity cards
+
 ## 100.16.0
 
 ### Added
