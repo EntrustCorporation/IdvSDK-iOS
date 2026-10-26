@@ -1,3 +1,18 @@
+## 100.18.0
+
+### Added
+
+- SDK strings can now be overridden from an `EntrustIDVLocalizable` string table (`.strings` or `.xcstrings`) in the host app. Keys missing from bundled translations fall back to the CDN instead of showing the raw key.
+- Tapping a link in SDK text now shows a confirmation dialog before leaving the SDK for the external browser. The link only opens if the user confirms. The dialog copy can be customised through `Localisation.overrides` using the `common.generic.external_link_confirmation.title`, `.body`, `.open_link` and `.cancel` keys.
+- Tapping a link in SDK text, or a browser-target link in a web module, now opens it in an in-app browser (SFSafariViewController) by default, keeping the user inside the host app. Accounts configured to open links in the external browser keep opening them there, with the confirmation dialog for links in SDK text.
+
+### Fixed
+
+- Fix links on the consent screen not opening when tapped. They now open in the device's browser.
+- Fixed an NFC crash that could occur when the host app also bundles OpenSSL
+- Fixed document auto-capture occasionally getting stuck on "Hold still" on lower end devices
+- The clear button in the country search now has a localised accessibility label instead of the English "Clear Search".
+
 ## 100.17.0
 
 ### Added
