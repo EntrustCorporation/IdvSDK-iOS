@@ -1,3 +1,9 @@
+## 100.18.1
+
+### Fixed
+
+- Added a privacy manifest (PrivacyInfo.xcprivacy) to the NFC framework
+
 ## 100.18.0
 
 ### Added
