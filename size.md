@@ -43,12 +43,16 @@ _SDK version: 100.19.0_
 Totals are the **full impact on your app** (relative to a sample native app), with `DeviceSecurity`
 counted once.
 
-| Combination                                   | Download Size Δ | Install Size Δ |
-|-----------------------------------------------|-----------------|-----------------|
-| EntrustIdv                                    | 1.83 MB         | 5.03 MB         |
-| EntrustIdv + Document                         | 3.06 MB         | 7.63 MB         |
-| EntrustIdv + Document + FacePhoto             | 3.17 MB         | 8.03 MB         |
-| EntrustIdv + Document + FaceMotion            | 3.34 MB         | 8.47 MB         |
-| EntrustIdv + Document + NFC                   | 5.34 MB         | 13.49 MB        |
-| EntrustIdv + Document + NFC + FacePhoto       | 5.46 MB         | 13.89 MB        |
-| EntrustIdv + Document + NFC + FaceMotion      | 5.63 MB         | 14.33 MB        |
+NFC links OpenSSL (1.94 MB download / 4.88 MB install). Clients who already ship OpenSSL, or who
+opt out of bundling it with NFC, can use the **excl. OpenSSL** columns. Only combinations that
+include NFC are affected; all other combinations are unchanged.
+
+| Combination                                   | Download Size Δ | Install Size Δ | Download Δ, excl. OpenSSL | Install Δ, excl. OpenSSL |
+|-----------------------------------------------|-----------------|-----------------|---------------------------|---------------------------|
+| EntrustIdv                                    | 1.83 MB         | 5.03 MB         | 1.83 MB                   | 5.03 MB                   |
+| EntrustIdv + Document                         | 3.06 MB         | 7.63 MB         | 3.06 MB                   | 7.63 MB                   |
+| EntrustIdv + Document + FacePhoto             | 3.17 MB         | 8.03 MB         | 3.17 MB                   | 8.03 MB                   |
+| EntrustIdv + Document + FaceMotion            | 3.34 MB         | 8.47 MB         | 3.34 MB                   | 8.47 MB                   |
+| EntrustIdv + Document + NFC                   | 5.34 MB         | 13.49 MB        | 3.40 MB                   | 8.61 MB                   |
+| EntrustIdv + Document + NFC + FacePhoto       | 5.46 MB         | 13.89 MB        | 3.52 MB                   | 9.01 MB                   |
+| EntrustIdv + Document + NFC + FaceMotion      | 5.63 MB         | 14.33 MB        | 3.69 MB                   | 9.45 MB                   |
