@@ -1,3 +1,22 @@
+## 100.19.0
+
+### Added
+
+- Web module screens now show translation overrides from the host app's `EntrustIDVLocalizable` strings file.
+
+### Changed
+
+- The NFC PIN input is now announced by VoiceOver as a secure text field, and its keyboard is no longer brought up automatically while VoiceOver is running so the screen title and instructions are read first
+- The show/hide PIN button on the NFC PIN screen is now exposed to VoiceOver, with a translated label that changes with its state
+- VoiceOver now announces the NFC chip blocked screen's "Government portal" button as an external link
+- NFC now links OpenSSL from the krzyzanowskim/OpenSSL Swift package
+- Web modules in this release use Web SDK version 3.44.
+
+### Fixed
+
+- Fixed the document selection screen being skipped when the only preferred document is a custom document. When the disable_doc_selection_skip_for_custom_documents feature flag is enabled, the selection screen is now shown instead.
+- Added a privacy manifest (PrivacyInfo.xcprivacy) to the NFC framework
+
 ## 100.18.1
 
 ### Fixed
