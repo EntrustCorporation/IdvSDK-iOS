@@ -1,3 +1,27 @@
+## 100.20.0
+
+### Changed
+
+- Optimised internal module interfaces to reduce SDK install size
+- Reduced the SDK size by removing unused code from its internal frameworks
+- Optimised JSON encoding structure of internal types to reduce SDK size
+- Updated the Trial app icon to the latest Entrust branding.
+- Web modules in this release use Web SDK version 14.90.0.
+
+### Fixed
+
+- Fix Motion capture occasionally failing to upload when the last head movement is completed just before the time limit
+- Fix Motion capture occasionally failing to upload if the app went to the background after the head turns were completed
+- Announce the meaning of the icon next to information, warning and error banners to VoiceOver users, before the banner content.
+- Fix the "Issuing country" label on the document selection screen being announced as a heading by VoiceOver. It is now read as regular text.
+- Fixed incorrect feedback shown during document capture when the document is cut off.
+- Fixed the NFC PIN step not showing for Romanian ID cards
+- Fixed NFC chip response integrity check for AES secure messaging
+- Fixed a rare crash when returning to a screen with a looping video
+- Fix Classic flows not returning the document result for generic and single-sided documents. Generic documents are reported as the new DocumentType.genericDocument.
+- FactoryKit and MRZParserKit are no longer exposed by the SDK or added to the host app's Swift package dependencies, so apps can use their own Factory version.
+- Classic Proof of Address step now returns a ProofOfAddressCaptureResult in onComplete.
+
 ## 100.19.0
 
 ### Added
